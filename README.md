@@ -9,8 +9,8 @@ For training other diagnostics, set metric to "tas={metric}" or "tas,rtmt={metri
 The plot_rasters is for EO visualisation used in the final fig to highlight future work. Data provided should allow for some of the constituent plots to be recreated. 
 _plotting handles some other plots, such as the lat-lon cross-sectional plots.
 
-The cnn-gp-outputs folder contains some of the results in numpy files from different models, which the plotting notebooks should automatically be able to read and plot, recreating plots in the paper.
-In this folder:
+The data at https://doi.org/10.5281/zenodo.22915464 contains some of the results in numpy files from different models, which the plotting notebooks should automatically be able to read and plot, recreating plots in the paper.
+At this link:
 - spatial_arrays_eval_tas.nc ==> CNN-GP outputs
 - pure_gp_eval_tas.nc ==> PCA-GP outputs
 - lstm_eval_tas.nc ==> LSTM-GP outputs
