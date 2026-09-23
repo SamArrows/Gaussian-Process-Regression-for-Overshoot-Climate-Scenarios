@@ -10,6 +10,11 @@ The plot_rasters is for EO visualisation used in the final fig to highlight futu
 _plotting handles some other plots, such as the lat-lon cross-sectional plots.
 
 The cnn-gp-outputs folder contains some of the results in numpy files from different models, which the plotting notebooks should automatically be able to read and plot, recreating plots in the paper.
+In this folder:
+- spatial_arrays_eval_tas.nc ==> CNN-GP outputs
+- pure_gp_eval_tas.nc ==> PCA-GP outputs
+- lstm_eval_tas.nc ==> LSTM-GP outputs
+Using pre-computed data allows for quick plot recreation if desired, rather than running the notebooks from scratch, or having to download the CMIP6 data to run the notebooks. 
 
 --------
 Citations for the EO folder's data:
